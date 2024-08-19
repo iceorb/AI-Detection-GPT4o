@@ -1,0 +1,272 @@
+System Prompt:
+You are an expert at determining whether or not images are AI generated, including partially AI modified or generated images. Respond with either 'YES' if the image is AI-generated or 'NO' if it is not, followed by a concise reason for your decision. Format your response as 'YES/NO - [reason why goes here]'.
+Processing image: data/generated/IMG_2367.png
+Result: NO - This image does not display any visible signs of being AI-generated. The textures, reflections, and shadows appear natural and consistent with a photograph of a laptop and an ID card.
+
+Processing image: data/generated/IMG_2366.png
+Result: NO - The image does not appear to be AI-generated. The level of detail, natural lighting, realistic textures, and specific elements such as the Arizona driver's license and keyboard are consistent with a photograph taken in a real-world setting.
+
+Processing image: data/generated/IMG_2358.png
+Result: NO - The image appears to be a photograph of a real driver's license placed on a table next to a laptop. The visual details and context suggest it is not AI-generated.
+
+Processing image: data/generated/IMG_20240708_161538.jpg
+Result: NO - The image appears to be a photograph of a real Arizona driver's license placed on a black surface. The text and details on the license, as well as the general realism of the scene, suggest it is a genuine photograph rather than an AI-generated image.
+
+Processing image: data/generated/IMG_20240708_161712.jpg
+Result: NO - The image appears to be a photograph of a real driver's license being held in a person's hand. The elements such as lighting, shading, and the inherent imperfections in the print of the driver's license look natural and consistent with a real-world scenario.
+
+Processing image: data/generated/IMG_20240708_162226.jpg
+Result: NO - The image shows a driver’s license placed on a fabric surface, and there are no apparent visual indicators suggesting it is AI-generated. The document and surroundings appear to be realistic.
+
+Processing image: data/generated/IMG_20240708_162030.jpg
+Result: NO - The image of the driver's license appears to be realistic with no obvious signs of being AI-generated. The photo, text details, and holographic security features are characteristic of a genuine driver's license, and the background elements such as the keyboard and desk are also realistic.
+
+Processing image: data/generated/IMG_2359.png
+Result: NO - This image does not exhibit the usual signs of being AI-generated. It shows a photograph of a real object (a driver's license) placed on a surface with natural lighting and shadows, which are not typical characteristics of AI-generated images.
+
+Processing image: data/generated/IMG_2365.png
+Result: NO - The image appears to be a regular photograph of a driver's license placed on a laptop keyboard. There are no visible signs of AI generation or manipulation.
+
+Processing image: data/generated/IMG_2360.png
+Result: NO - The image displays a realistic composition involving a physical ID card on a table next to a laptop. There are no clear indicators of digital manipulation or artificial generation.
+
+Processing image: data/generated/IMG_20240708_161701.jpg
+Result: NO - The image appears to be a genuine photograph of a driver's license held in someone's hand. The details such as text, holograms, and layout of the license look realistic and appropriately aligned, which suggests it is not AI-generated.
+
+Processing image: data/generated/IMG_20240708_162108.jpg
+Result: NO - The image appears to be a photograph of a real driver's license placed on a laptop keyboard. The details, such as the texture of the card, reflections, and other elements, are consistent with a real photograph rather than an AI-generated image.
+
+Processing image: data/generated/IMG_20240708_161812.jpg
+Result: YES - The image appears to be AI-generated because a real driver's license typically exhibits clear printing and distinct text and images, which are often difficult for AI generation to replicate accurately. This image has an unnatural quality in terms of texture and clarity that suggests it might not be an actual physical driver's license.
+
+Processing image: data/generated/IMG_20240708_162216.jpg
+Result: NO - The image appears to depict a physical driver's license that seems genuine. There are no obvious visual indicators suggesting that the image was generated or modified by AI.
+
+Summary results for folder data/generated: {'Yes': 1, 'No': 13}
+
+Processing image: data/gt_background/IMG_2367.png
+Result: NO - The image appears to be a natural photograph of a laptop with a card placed on it. There are no clear signs of it being AI-generated, such as unrealistic textures, odd distortions, or anomalies that are typical in AI-generated images.
+
+Processing image: data/gt_background/IMG_2366.png
+Result: NO - The image appears to be a photograph of a real Arizona driver's license placed on the keyboard of a laptop. The details on the license and the natural reflections and shadows suggest it is not AI-generated.
+
+Processing image: data/gt_background/IMG_2358.png
+Result: NO - The image appears to be a legitimate photograph of a driver's license placed on a surface beneath a laptop. There are no obvious signs of AI generation or alteration.
+
+Processing image: data/gt_background/IMG_20240708_161538.jpg
+Result: NO - The image of the driver's license appears authentic and not AI-generated. The elements, such as the card design, text, and security features, resemble those seen in real identification documents.
+
+Processing image: data/gt_background/IMG_20240708_161712.jpg
+Result: NO - The image appears to be a photograph of a real Arizona driver's license held in a person's hand. AI-generated images typically have noticeable artifacts or inconsistencies, while this image looks natural and realistic.
+
+Processing image: data/gt_background/IMG_20240708_162226.jpg
+Result: NO - The image appears to be a photograph of a physical driver's license placed on a person's leg. The details, texture, and shadowing indicate it is a genuine physical object captured in a photo, rather than an AI-generated image.
+
+Processing image: data/gt_background/IMG_20240708_162030.jpg
+Result: NO - The image appears to be a photograph of a physical object, specifically a driver's license placed on a keyboard. There are no obvious signs of AI generation such as unnatural textures, inconsistent lighting, or distorted text.
+
+Processing image: data/gt_background/IMG_2359.png
+Result: NO - The image appears to be of a real physical driver's license placed next to a laptop, which shows natural reflections and shadows, typical of a photograph of a real object rather than an AI-generated image.
+
+Processing image: data/gt_background/IMG_2365.png
+Result: NO - The image appears to be a photograph of a real laptop keyboard with a physical ID card placed on top. The reflections, textures, and details are consistent with a real-world setting, not an AI-generated image.
+
+Processing image: data/gt_background/IMG_2360.png
+Result: NO - The image appears to be a photograph of a physical identification card placed next to a laptop, and there are no discernible artifacts or inconsistencies typical of AI-generated images.
+
+Processing image: data/gt_background/IMG_20240708_161701.jpg
+Result: YES - The image appears to be AI-generated, particularly due to the inconsistencies and irregularities in the text, which are common artifacts in AI-generated images of documents.
+
+Processing image: data/gt_background/IMG_20240708_162108.jpg
+Result: NO - The image of the driver's license on a laptop appears to be a photograph. The details and text on the driver's license, as well as the laptop keys and textures, suggest that this image is not AI-generated.
+
+Processing image: data/gt_background/IMG_20240708_161812.jpg
+Result: NO - The image shows a standard driver’s license, which appears to be a legitimate identification document with typical security features and layout.
+
+Processing image: data/gt_background/IMG_20240708_162216.jpg
+Result: NO – The image appears to be a photograph of a genuine physical driver's license. The details, such as the text, font, and layout, are consistent with actual ID documents issued by government authorities.
+
+Summary results for folder data/gt_background: {'Yes': 1, 'No': 13}System Prompt:
+You're an AI image detector. Tell me if the image is generated by AI simply with a 'Y' for yes and 'N' for no.
+Processing image: data/generated/IMG_2367.png
+Result: N
+
+Processing image: data/generated/IMG_2366.png
+Result: N
+
+Processing image: data/generated/IMG_2358.png
+Result: N
+
+Processing image: data/generated/IMG_20240708_161538.jpg
+Result: N
+
+Processing image: data/generated/IMG_20240708_161712.jpg
+Result: N
+
+Processing image: data/generated/IMG_20240708_162226.jpg
+Result: N
+
+Processing image: data/generated/IMG_20240708_162030.jpg
+Result: N
+
+Processing image: data/generated/IMG_2359.png
+Result: N
+
+Processing image: data/generated/IMG_2365.png
+Result: N
+
+Processing image: data/generated/IMG_2360.png
+Result: N
+
+Processing image: data/generated/IMG_20240708_161701.jpg
+Result: N
+
+Processing image: data/generated/IMG_20240708_162108.jpg
+Result: I'm sorry, but I can't help with determining whether this specific image has been generated or modified by AI.
+
+Processing image: data/generated/IMG_20240708_161812.jpg
+Result: Y
+
+Processing image: data/generated/IMG_20240708_162216.jpg
+Result: N
+
+Summary results for folder data/generated: {'Yes': 1, 'No': 12}
+
+Processing image: data/gt_background/IMG_2367.png
+Result: N
+
+Processing image: data/gt_background/IMG_2366.png
+Result: N
+
+Processing image: data/gt_background/IMG_2358.png
+Result: N
+
+Processing image: data/gt_background/IMG_20240708_161538.jpg
+Result: N
+
+Processing image: data/gt_background/IMG_20240708_161712.jpg
+Result: N
+
+Processing image: data/gt_background/IMG_20240708_162226.jpg
+Result: N
+
+Processing image: data/gt_background/IMG_20240708_162030.jpg
+Result: N
+
+Processing image: data/gt_background/IMG_2359.png
+Result: N
+
+Processing image: data/gt_background/IMG_2365.png
+Result: N
+
+Processing image: data/gt_background/IMG_2360.png
+Result: N
+
+Processing image: data/gt_background/IMG_20240708_161701.jpg
+Result: N
+
+Processing image: data/gt_background/IMG_20240708_162108.jpg
+Result: N
+
+Processing image: data/gt_background/IMG_20240708_161812.jpg
+Result: N
+
+Processing image: data/gt_background/IMG_20240708_162216.jpg
+Result: N
+
+Summary results for folder data/gt_background: {'Yes': 0, 'No': 14}
+
+All Results:
+[{'data/generated': {'Yes': 1, 'No': 12}}, {'data/gt_background': {'Yes': 0, 'No': 14}}]
+System Prompt: You are a human who has a keen eye for AI generated images. When prompted, answer YES or NO to the user's prompt
+User Prompt: Is this image generated or modified by AI at all?
+Processing image: data/generated/IMG_2367.png
+Result: NO
+
+Processing image: data/generated/IMG_2366.png
+Result: NO, this image does not appear to be generated or modified by AI.
+
+Processing image: data/generated/IMG_2358.png
+Result: NO
+
+Processing image: data/generated/IMG_20240708_161538.jpg
+Result: NO
+
+Processing image: data/generated/IMG_20240708_161712.jpg
+Result: Yes, this image appears to be modified by AI. The driver's license seems to be artificially generated or modified. Notably, there is a visible text artifact, "YOUR IDENTITY HERE," which indicates it is not a real license.
+
+Processing image: data/generated/IMG_20240708_162226.jpg
+Result: YES
+
+Processing image: data/generated/IMG_20240708_162030.jpg
+Result: Yes. The provided image of the driver's license exhibits indicators that it has been modified or generated by AI. The details on the license appear somewhat inconsistent, and there are visible artifacts that suggest it may not be an authentic photograph of a genuine item.
+
+Processing image: data/generated/IMG_2359.png
+Result: NO
+
+Processing image: data/generated/IMG_2365.png
+Result: NO
+
+Processing image: data/generated/IMG_2360.png
+Result: NO
+
+Processing image: data/generated/IMG_20240708_161701.jpg
+Result: NO
+
+Processing image: data/generated/IMG_20240708_162108.jpg
+Result: I'm sorry, but I can't determine if the image has been generated or modified by AI.
+
+Processing image: data/generated/IMG_20240708_161812.jpg
+Result: YES
+
+Processing image: data/generated/IMG_20240708_162216.jpg
+Result: NO.
+
+Summary results for folder data/generated: {'Yes': 4, 'No': 9}
+
+Processing image: data/gt_background/IMG_2367.png
+Result: NO
+
+Processing image: data/gt_background/IMG_2366.png
+Result: No, the image does not appear to be generated or modified by AI. It looks like a photograph of a laptop with a driver's license on it.
+
+Processing image: data/gt_background/IMG_2358.png
+Result: NO
+
+Processing image: data/gt_background/IMG_20240708_161538.jpg
+Result: YES
+
+Processing image: data/gt_background/IMG_20240708_161712.jpg
+Result: YES
+
+Processing image: data/gt_background/IMG_20240708_162226.jpg
+Result: YES
+
+Processing image: data/gt_background/IMG_20240708_162030.jpg
+Result: YES
+
+Processing image: data/gt_background/IMG_2359.png
+Result: NO
+
+Processing image: data/gt_background/IMG_2365.png
+Result: NO
+
+Processing image: data/gt_background/IMG_2360.png
+Result: NO
+
+Processing image: data/gt_background/IMG_20240708_161701.jpg
+Result: Yes, this image is likely generated or modified by AI. The text and elements on the driver's license appear to be slightly distorted and unrealistic, which are common signs of AI-generated or modified images.
+
+Processing image: data/gt_background/IMG_20240708_162108.jpg
+Result: YES.
+
+Processing image: data/gt_background/IMG_20240708_161812.jpg
+Result: NO
+
+Processing image: data/gt_background/IMG_20240708_162216.jpg
+Result: YES
+
+Summary results for folder data/gt_background: {'Yes': 7, 'No': 7}
+
+All Results:
+[{'data/generated': {'Yes': 4, 'No': 9}}, {'data/gt_background': {'Yes': 7, 'No': 7}}]
